@@ -1,0 +1,36 @@
+ALGORITHM Sum-array Equal Element
+VAR
+    set1= array of number :INTEGER;
+    set2=array of number: INTEGER;
+    Sum, i,j: INTEGER;
+    Sum=0;
+BEGIN
+for (i = 0; i < length(set1); i++)      
+   {
+      for (j = 0; j < length( set2); j++)   
+      {
+         if (set1[i] == set2[j])    
+         then Sum = Sum+ set[i]*2
+         }
+       END_IF
+
+END
+
+
+ALGORITHM Sum-array Inequal Elements
+VAR
+    set1= array of number :INTEGER;
+    set2=array of number: INTEGER;
+    Sum, i,j: INTEGER;
+    Sum=0;
+BEGIN
+for (i = 0; i < length(set1); i++)      
+   {
+      for (j = 0; j < length( set2); j++)   
+      {
+         if (set1[i] <> set2[j])    
+         then Sum = Sum+ set[i]*2
+         }
+       END_IF
+
+END
